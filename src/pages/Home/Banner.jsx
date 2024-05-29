@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="flex gap-2 lg:w-1/2 mx-auto md:flex-row bg-white p-2 rounded-md">
         <input
           type="text"
-          className="grow"
+          className="grow focus:outline-none text-black"
           placeholder={t("banner-input-placeholder")}
         />
         <button className="btn bg-[#DC3545] text-white w-40px ">
