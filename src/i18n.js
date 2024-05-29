@@ -9,8 +9,6 @@ const options = {
     checkWhitelist:true
 }
 // don't want to use this?
-// have a look at the Quick start guide
-// for passing in lng and translations on init
 
 i18n
   .use(Backend)
