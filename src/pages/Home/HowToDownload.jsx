@@ -4,7 +4,7 @@ const HowToDownload = () => {
   const {t} = useTranslation()
   return (
     <div>
-      <h2 className="text-4xl text-center my-10">
+      <h2 className="text-4xl text-center my-10  max-w-6xl mx-auto">
       {t("download_guide")}
       </h2>
       <div className="grid lg:grid-cols-3 gap-5 mb-10">

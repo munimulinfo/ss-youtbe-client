@@ -11,7 +11,7 @@ export const urlSlice = createSlice({
         increment: (state) => {
             state.value =state + 1
           },
-    }
+    }   
 })
 
 export const {increment} = urlSlice.actions  ;

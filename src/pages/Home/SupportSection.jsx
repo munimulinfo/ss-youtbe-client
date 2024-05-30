@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const SupportSection = () => {
   const {t} = useTranslation();
   return (
-    <div className="max-w-7xl mx-auto my-10 px-5 md:px-24">
+    <div className="max-w-6xl mx-auto my-10 px-5 md:px-24">
       <p>{t("support_des")}
       </p>
       <h2 className="text-center font-medium my-7 text-2xl">{t("support_title")}</h2>

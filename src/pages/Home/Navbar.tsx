@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const Navbar = () => {
   const { t } = useTranslation();
   return (
-    <div className="navbar text-white max-w-7xl mx-auto">
+    <div className="navbar text-white max-w-6xl mx-auto">
       <div className="navbar-start">
         <div className="flex justify-center items-center gap-2 ">
           <FaYoutube className="text-[#FF206E] text-xl" />
