@@ -12,7 +12,6 @@ const Banner = () => {
   const { t } = useTranslation();
   const [videoInfo, setVideoInfo] = useState(null);
   const [videoLink, setVideoLink] = useState("");
-  // const [downloadVedio, { isLoading, isError }] = useDownloadVedioMutation();
   const [getVedioInfo] = useGetVedioInfoMutation();
   const getYoutubeVideoInfo = async () => {
     try {
@@ -32,7 +31,7 @@ const Banner = () => {
       const url = `http://localhost:5000/video-download?id=${videoId}&resu=${String(
         resu
       )}`;
-      window.location.href = url;
+      window.open(url, "_blank");
     } else {
       alert("Invalid YouTube URL");
     }
