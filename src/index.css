@@ -3,3 +3,30 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.dropdown-menu {
+  border: 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  text-transform: none;
+  left: auto;
+  right: 0;
+  border-radius: 0.25rem;
+  color: #212529;
+  font-size: 1rem;
+  margin: 0.125rem 0 0;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  text-align: left;
+  top: 100%;
+}
+
+.dropdown-item {
+  font-weight: 400;
+  background-color: transparent;
+  border: 0;
+  clear: both;
+  color: #212529;
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  padding: 0.45rem 1.5rem;
+}

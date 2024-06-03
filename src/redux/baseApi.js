@@ -13,7 +13,7 @@ export const baseApi = createApi({
       },
     }),
     downloadVedio: builder.mutation({
-      query: ({ id, resu }) => {
+      query: ({ id}) => {
         return {
           url: "/download",
           method: "POST",
