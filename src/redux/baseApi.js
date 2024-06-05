@@ -12,16 +12,7 @@ export const baseApi = createApi({
         };
       },
     }),
-    downloadVedio: builder.mutation({
-      query: ({ id}) => {
-        return {
-          url: "/download",
-          method: "POST",
-          body: { url: id, quality: "" },
-        };
-      },
-    }),
   }),
 });
 
-export const { useGetVedioInfoMutation, useDownloadVedioMutation } = baseApi;
+export const { useGetVedioInfoMutation } = baseApi;
